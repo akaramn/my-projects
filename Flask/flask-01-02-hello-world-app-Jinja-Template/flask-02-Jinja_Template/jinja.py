@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def head():
-    return render_template('index.html', number1 = 1000, number2 = 2290009)
+    return render_template('index.html', number1 = 1000000, number2 = 800000)
 
 @app.route('/sum')
 def number():
@@ -14,3 +14,8 @@ def number():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+
+
+   
